@@ -1,0 +1,23 @@
+# IDE and editor specific
+.vscode/
+
+# Python cache
+__pycache__/
+
+# Temporary files and logs
+*.log
+logs/
+
+# Data and intermediate results
+data/*/*.parquet
+
+# Model checkpoints and serialized objects
+*.pkl
+tmap.html
+
+# Experiment folders
+experiments/
+
+# Figures and notebooks
+figures/
+

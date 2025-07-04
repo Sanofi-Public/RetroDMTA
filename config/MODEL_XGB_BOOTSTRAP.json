@@ -1,0 +1,40 @@
+{
+    "DATASETS": ["FXA", "RENIN", "PPARD", "MMP8"],
+    "BATCH_SIZE": [0.5],
+    "STRATEGY_TYPE": ["pure"],
+    "STRATEGIES": [
+    {"desirability": 1},
+    {"desirability_wAD": 1},
+    {"uncertainty": 1},
+    {"desired_spread": 1},
+    {"gra": 1},
+    {"topsis": 1},
+    {"greediverse_01_065": 1},
+    {"greediverse_01_07": 1},
+    {"greediverse_01_075": 1},
+    {"greediverse_01_08": 1},
+    {"greediverse_01_085": 1},
+    {"greediverse_1_065": 1},
+    {"greediverse_1_07": 1},
+    {"greediverse_1_075": 1},
+    {"greediverse_1_08": 1},
+    {"greediverse_1_085": 1},
+    {"greediverse_10_065": 1},
+    {"greediverse_10_07": 1},
+    {"greediverse_10_075": 1},
+    {"greediverse_10_08": 1},
+    {"greediverse_10_085": 1},
+    {"ratio_095": 1},
+    {"harmonic": 1},
+    {"desired_coverage": 1}
+],
+    "EXPERIMENT_PARAMS": {
+        "training_threshold": 100,
+        "scoring": "geometric",
+        "utility_quantile": 1,
+        "model_name": "xgb",
+        "uncertainty_strategy": "bootstrap",
+        "n_bootstrap": 50
+    }
+}
+
